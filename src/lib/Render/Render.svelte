@@ -1,0 +1,87 @@
+<div class="render">
+	{@html `
+		<svg width="2078" height="auto" viewBox="0 0 2078 554" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<g opacity="0.5" filter="url(#filter0_f_37_188)">
+			<path d="M475.018 56L50 481H2028L1618.45 56H475.018Z" fill="#513351" fill-opacity="0.15"/>
+			</g>
+			<g opacity="0.4" filter="url(#filter1_f_37_188)">
+			<path d="M456 221L562.696 20H605L520 235L456 221Z" fill="url(#paint0_linear_37_188)" fill-opacity="0.8"/>
+			</g>
+			<g opacity="0.4" filter="url(#filter2_f_37_188)">
+			<path d="M1614 221L1507.3 20H1465L1550 235L1614 221Z" fill="url(#paint1_linear_37_188)" fill-opacity="0.8"/>
+			</g>
+			<g opacity="0.4" filter="url(#filter3_f_37_188)">
+			<path d="M58 534L378 216L441 233L140 534H58Z" fill="url(#paint2_linear_37_188)" fill-opacity="0.8"/>
+			</g>
+			<g opacity="0.4" filter="url(#filter4_f_37_188)">
+			<path d="M2012 534L1692 216L1629 233L1930 534H2012Z" fill="url(#paint3_linear_37_188)" fill-opacity="0.8"/>
+			</g>
+			<defs>
+			<filter id="filter0_f_37_188" x="0" y="6" width="2078" height="525" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_37_188"/>
+			</filter>
+			<filter id="filter1_f_37_188" x="436" y="0" width="189" height="255" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_37_188"/>
+			</filter>
+			<filter id="filter2_f_37_188" x="1445" y="0" width="189" height="255" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_37_188"/>
+			</filter>
+			<filter id="filter3_f_37_188" x="38" y="196" width="423" height="358" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_37_188"/>
+			</filter>
+			<filter id="filter4_f_37_188" x="1609" y="196" width="423" height="358" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_37_188"/>
+			</filter>
+			<linearGradient id="paint0_linear_37_188" x1="553.5" y1="20" x2="520.45" y2="145.693" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#513351" stop-opacity="0.41"/>
+			<stop offset="1" stop-color="#513351" stop-opacity="0"/>
+			</linearGradient>
+			<linearGradient id="paint1_linear_37_188" x1="1516.5" y1="20" x2="1549.55" y2="145.693" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#513351" stop-opacity="0.41"/>
+			<stop offset="1" stop-color="#513351" stop-opacity="0"/>
+			</linearGradient>
+			<linearGradient id="paint2_linear_37_188" x1="369" y1="233" x2="344.589" y2="362.792" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#513351" stop-opacity="0.41"/>
+			<stop offset="1" stop-color="#513351" stop-opacity="0"/>
+			</linearGradient>
+			<linearGradient id="paint3_linear_37_188" x1="1701" y1="233" x2="1725.41" y2="362.792" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#513351" stop-opacity="0.41"/>
+			<stop offset="1" stop-color="#513351" stop-opacity="0"/>
+			</linearGradient>
+			</defs>
+		</svg>
+	`}
+	<img src="/render.png" alt="Unremarkable tablet render" />
+</div>
+
+<style>
+	.render {
+		position: relative;
+		width: fit-content;
+	}
+
+		.render img {
+			display: block;
+			width: 100%;
+			max-width: none;
+		}
+
+	.render :global(svg) {
+		pointer-events: none;
+		position: absolute;
+		width: 150%;
+		left: -25%;
+		top: 68%;
+		z-index: -1;
+	}
+</style>
