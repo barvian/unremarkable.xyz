@@ -31,7 +31,10 @@ Noise svg source (compile here:  https://yoksel.github.io/url-encoder/):
 	--beige: #E3DCD7;
 	--heading-color: #201F1E;
 	--text-color: #605C59;
-	--width:  58rem;
+	--width: 58rem;
+
+	--space-2: max(4vh, 2rem);
+	--space-4: max(8vh, 4rem);
 }
 
 body {
@@ -39,15 +42,8 @@ body {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content:  center;
-	padding: max(2vh, 1rem) max(10vw, 1.25rem);
+	padding: var(--space-2) max(10vw, 1.25rem);
 	overflow: hidden;
-}
-
-#svelte {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: var(--width);
-	width: 100%;
 }
 
 h1 {
@@ -56,18 +52,10 @@ h1 {
 	line-height: 1.08;
 }
 
-	h1 + h2 {
-		margin-top:  max(4vh, 2rem);
-	}
-
-	h1 + button, h1 + .button {
-		margin-top:  max(8vh, 4rem);
-	}
-
 h2 {
 	font-size: 1.85rem;
 	font-weight: normal;
-	margin-bottom: max(4vh, 2rem);
+	margin-bottom: var(--space-2);
 }
 
 h2, p {
@@ -92,3 +80,10 @@ button, .button {
 	padding: 0.9em 1.25em/*0.5em 0.75em*/;
 	line-height: 1;
 }
+
+	button svg {
+		display: inline-block;
+		margin-left: 0.35em;
+		height: 0.7em;
+		width: auto;
+	}

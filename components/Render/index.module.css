@@ -1,0 +1,19 @@
+.wrapper {
+	position: relative;
+	width: fit-content;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	max-width: none;
+}
+
+.shadow {
+	pointer-events: none;
+	position: absolute;
+	width: 150%;
+	left: -25%;
+	top: 68%;
+	z-index: -1;
+}
