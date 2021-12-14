@@ -10,6 +10,7 @@
 		position: relative;
 		right: -9%;
 		order: 1;
+		transform: translateY(calc(var(--space-2) + 5%));
 	}
 
 	@media (min-width: 960px) {
