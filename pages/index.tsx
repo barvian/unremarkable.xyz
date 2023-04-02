@@ -6,8 +6,11 @@ export default function Home() {
 	return (
 		<RenderAside>
 			<h1>A device that does less, so you can do more.</h1>
-			<SliderButton style={{ marginTop: 'var(--space-4)' }} id={process.env.NEXT_PUBLIC_TYPEFORM_ID} size={550}>
-				Get Notified 
+			<SliderButton
+				style={{ marginTop: 'var(--space-4)' }}
+				id={process.env.NEXT_PUBLIC_TYPEFORM_ID!}
+			>
+				Get Notified
 				<ArrowIcon />
 			</SliderButton>
 		</RenderAside>

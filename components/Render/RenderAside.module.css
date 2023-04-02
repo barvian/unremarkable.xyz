@@ -4,31 +4,31 @@
 	align-items: flex-start;
 }
 
+.wrapper :global .render {
+	width: 180% !important;
+	max-width: 60rem;
+	position: relative;
+	right: -9%;
+	order: 1;
+	transform: translateY(calc(var(--space-2) + 5%));
+}
+
+@media (min-width: 960px) {
+	.wrapper {
+		display: block;
+	}
+
 	.wrapper :global .render {
-		width: 180% !important;
-		max-width: 60rem;
-		position: relative;
-		right: -9%;
-		order: 1;
-		transform: translateY(calc(var(--space-2) + 5%));
+		shape-outside: polygon(27% 37%, 83% 37%, 100% 48%, 100% 100%, 0 100%, 0 48%);
+		shape-margin: 5%;
+		float: right;
+		margin-right: -50%;
+		transform: translateY(calc(var(--space-4) + 20%));
+		right: 0;
+		width: 100% !important;
 	}
 
-	@media (min-width: 960px) {
-		.wrapper {
-			display: block;
-		}
-
-		.wrapper :global .render {
-			shape-outside: polygon(27% 37%, 83% 37%, 100% 48%, 100% 100%, 0 100%, 0 48%);
-			shape-margin: 5%;
-			float: right;
-			margin-right: -50%;
-			transform: translateY(calc(var(--space-4) + 20%));
-			right: 0;
-			width: 100% !important;
-		}
-
-		.wrapper :global .payment-form {
-			max-width: 40% !important;
-		}
+	.wrapper :global .payment-form {
+		max-width: 40% !important;
 	}
+}

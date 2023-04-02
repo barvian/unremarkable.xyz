@@ -10,5 +10,4 @@ export default function Render() {
 			<Image className={styles.image} src={renderImage} alt="Unremarkable tablet render" />
 		</div>
 	)
-
 }
